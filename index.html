@@ -5,9 +5,8 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-
     <!--Vanta.js for Background-->
     <script src="./assets/birds/three.min.js"></script>
     <script src="./assets/birds/vanta.birds.min.js"></script>
@@ -62,71 +61,74 @@
         </section>
 
         <section id="Work" class="left-nav">
-          <header>
+          <header class=>
             <h2 class="push-down">Work</h2>
           </header>
+
+
           <!-- Cards -->
+    <div class="card flex flex-wrap mt-42 pl-48"> 
 
-          <div class="card">
-            <section class="push-left">
-              <a href="#null">
-                <figure class="images">
-                  <img
-                    class="main"
-                    src="./assets/images/html.jpg"
-                    alt="HTML note"
-                  />
-                  <figcaption>MERN Stack</figcaption>
-                </figure>
-              </a>
-
-              <a href="#null">
-                <figure class="images">
-                  <img
-                    class="secondary"
-                    src="./assets/images/laptop-html.jpg"
-                    alt="laptop HTML"
-                  />
-                  <figcaption>Nod/IoT</figcaption>
-                </figure>
-              </a>
-
-              <a href="#null">
-                <figure class="images">
-                  <img
-                    class="secondary"
-                    src="./assets/images/monitors.jpg"
-                    alt="multiple monitors"
-                  />
-                  <figcaption>React/Javascript/CSS</figcaption>
-                </figure>
-              </a>
-
-              <a href="#null">
-                <figure class="images">
-                  <img
-                    class="secondary"
-                    src="./assets/images/html-whiteboard.jpg"
-                    alt="whiteboard"
-                  />
-                  <figcaption>MERN Stack</figcaption>
-                </figure>
-              </a>
-
-              <a href="#null">
-                <figure class="images">
-                  <img
-                    class="secondary"
-                    src="./assets/images/react.jpg"
-                    alt="React"
-                  />
-                  <figcaption>HTML/CSS</figcaption>
-                </figure>
-              </a>
-            </section>
+         <!-- MAIN -->
+    <div class="xs:w-full sm:w-3/4 md:w-3/4 lg:w-3/4 w-full flex p-2 ml-64">
+      <a href="https://montyking20.github.io/training-tracker/">
+      <div class="bg-white border-1-black rounded-lg  overflow-hidden flex-1 flex flex-col transform transition duration-900 hover:scale-110 ">
+        <div class="center h-52 mb-7"> <img src = "./assets/images/Screenshot-TT.jpg" alt="Training Tracker"></div>
+          <div class="p-4 flex-1 flex flex-col">
+            <div class="border-t border-black pt-2 text-2xl text-center">
+                <p>Training Tracker</p>
+            </div>
           </div>
-        </section>
+      </div>  
+    </div>
+  </a>                
+      <!-- Cards Grid       -->
+    <div id="main" class="xs:w-full sm:w-3/4 md:w-3/4 lg:w-3/4 w-full grid grid-cols-2 gap-8 rounded-lg shadow-lg flex justify-evenly mt-10 ml-64"> 
+          
+            <!-- Card 1 -->
+    <div class="bg-white rounded-lg shadow-xl overflow-hidden flex-1 flex flex-col transform transition duration-500 hover:scale-110">
+      <a href="https://montyking20.github.io/weather-dashboard/">
+      <div class="center h-52 mb-16"> <img src = "./assets/images/Screenshot-WD.jpg" alt="Weather Dashboard"></div>
+        <div class=" flex-1 flex flex-col">
+          <p class="pt-1 border-t border-black text-2xl text-center">Weather Dashboard</p>
+        </a>
+        </div>  
+    </div>
+    
+              <!-- Card 2 -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col transform transition duration-500 hover:scale-110">
+      <a href="https://montyking20.github.io/password/">
+      <div class="center h-52 mb-16"> <img src = "./assets/images/Screenshot-PG.jpg" alt="Password Generator"></div>
+        <div class="flex-1 flex flex-col">
+          <p class="pt-1 pb-1 border-t border-black text-2xl text-center">Password Generator</p>
+        </a>
+        </div>  
+    </div>
+  
+              <!-- Card 3 -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col transform transition duration-500 hover:scale-110">
+      <a href="">
+      <div class="center h-52 mb-32 mt-6 ml-20"> <img src =  "./assets/images/html-whiteboard.jpg" alt="HTML note"></div>
+        <div class="flex-1 flex flex-col">
+          <p class="pt-2 pb-6 border-t border-black text-2xl text-center">Work 3</p>
+        </a>
+        </div>  
+    </div>
+           
+              <!-- Card 4 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col transform transition duration-500 hover:scale-110">
+        <a href="">
+        <div class="center h-52 mb-10"> <img src =  "./assets/images/monitors.jpg" alt="HTML note"></div>
+          <div class="flex-1 flex flex-col">
+              <p class="pt-2 pb-1 border-t border-black text-2xl text-center">Work 4</p>
+            </a>     
+          </div>
+        </div>
+      </div> 
+    </section>
+    
 
+      <!-- contacts -->
         <section id="Contact Me" class="contacts-nav">
           <header>
             <h2 class="contact">Contact Me</h2>
@@ -156,7 +158,7 @@
       <p>&copy; 2021 JAWS Services, Inc.</p>
     </footer>
     <script>
-      alert("UNDER CONSTRUCTION");
+      // alert("UNDER CONSTRUCTION");
     </script>
     <script src="assets/js/script.js"></script>
   </body>

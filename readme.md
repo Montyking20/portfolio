@@ -1,5 +1,5 @@
  
- # Chris' Portfolio Page
+ # Chris' Updated Portfolio Page
  
  
 ##  What is the project?
@@ -14,26 +14,37 @@ In our second assignment we were required to create an app from scratch:
 
 - The app is also required to e responsive and adapts to different screen sizes. 
 
+<br>
+
 ## Completed steps
 
 - Header has name and a navbar that deploys to About me, Work, and Contact me.
 
-- Created 5 images of my apps with most recent app larger above the four other apps.
+- Created 3 images of my apps with most recent app larger above the 4 other apps. Two cards are just filler till I add other projects.
 
 - Created contact links for my linkedin, github, email and phone number.
 
-- Added shadows to image links, animated background and made it media friendly.
+- Added hover to image links, animated background and made it media friendly.
 
+
+<br>
+<br>
 
 ### Links
 
 ## [Portfolio](https://montyking20.github.io/portfolio/)
 
-## [Github](https://github.com/Montyking20/portfolio.git)
+<br>
+<br>
 
-
-## What is should look like
+## What it looked like
 
 ![website picture](/assets/images/screenshot-portfolio.jpg)
+
+<br>
+
+## The updated page
+
+![Updated Portfolio](/assets/images/screenshot-updatedPortfolio.jpg)
 
 
